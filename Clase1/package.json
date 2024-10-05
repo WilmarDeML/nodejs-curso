@@ -1,0 +1,28 @@
+{
+  "type": "module",
+  "name": "curso-node",
+  "version": "1.0.1",
+  "description": "El mejor curso de Node por 0$",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node ."
+  },
+  "keywords": [
+    "curso",
+    "node",
+    "nodejs",
+    "midudev",
+    "wilmardeml"
+  ],
+  "author": "Wilmar Arley Zapata Villa - wilmardeml",
+  "license": "ISC",
+  "devDependencies": {
+    "standard": "^17.1.2"
+  },
+  "eslintConfig": {
+    "extends": "standard"
+  },
+  "dependencies": {
+    "picocolors": "^1.1.0"
+  }
+}

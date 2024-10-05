@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile</title>
+  <style>
+    a {
+      width: 100%;
+      padding: 10px;
+      background-color: hsl(235, 82%, 75%);
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+  <% if(typeof username !== 'undefined') { %>
+    <h1>Hola <%= username %></h1>
+    <a href="/">Home</a>
+  <% } else { %>
+    <h1>No tienes autorización para acceder a este recurso</h1>
+    <a href="/">Iniciar sesión</a>
+  <% } %>
+</body>
+</html>

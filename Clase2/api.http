@@ -1,0 +1,14 @@
+### Obtener el pokemón ditto
+GET http://localhost:3000/pokemon/ditto HTTP/1.1
+
+### Crear un Pokemón
+POST http://localhost:3000/pokemon
+Content-Type: application/json
+
+{
+    "nombre": "ditto",
+    "type": "normal",
+    "moves": [
+        "transform"
+    ]
+}
